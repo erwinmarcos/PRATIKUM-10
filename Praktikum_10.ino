@@ -3,9 +3,11 @@ void setup() {
   Serial.println("========== Fungsi Matematika ==========="); 
   Serial.print("cos(90) = ");         Serial.println(cos(90));   
   Serial.print("sin(45) = ");         Serial.println(sin(45));  
-  Serial.print("tan(90) = ");         Serial.println(tan(90));      Serial.print("atan(90) = ");        Serial.println(atan(90)); 
+  Serial.print("tan(90) = ");         Serial.println(tan(90));      
+  Serial.print("atan(90) = ");        Serial.println(atan(90)); 
   Serial.print("atan2(90,10) = ");    Serial.println(atan2(90,10));   
-  Serial.print("sqrt(9) = ");         Serial.println(sqrt(9));    Serial.print("exp(9) = ");          Serial.println(exp(9));  
+  Serial.print("sqrt(9) = ");         Serial.println(sqrt(9));    
+  Serial.print("exp(9) = ");          Serial.println(exp(9));  
   Serial.print("log(100) = ");        Serial.println(log(100)); 
   Serial.print("log10(100) = ");      Serial.println(log10(100));   
   Serial.print("pow(9,2) = ");        Serial.println(pow(9,2));  
